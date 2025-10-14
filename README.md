@@ -2,6 +2,8 @@
 
 DESCRIPTION: AN ICON SIZED, REAL TIME FREEBSD XORG SYSTEM MONITOR
 
+TTSM: "Teeny Tiny System Monitor"
+
 TTSM is a tiny, 39x39px real time system monitor for FreeBSD.  It is designed to be small enough to not get in the way and to be JUST large enough to see easily, be easy to move (just click and drag it).
 
 It includes CPU use, Disk throughput, Network interfaces throughput and Swap statistics.  TTSM requires no configuration for devices.  It will automatically detect/iterate through your devices and automatically configure to read their stats.  In the case of Disk and Swap, the values you see are aggregates of every device in the system, both input and output.  As an example, if you have three disks in the system, TTSM will show you data flowing through any of those disks.  You don't need to configure it, it does it automatically.
@@ -23,3 +25,5 @@ Run the binary like any other.  TL;DR:  Type ./ttsm
 NOTE:  
 
 If you want to move the binary somewhere, it expects its background art file (background.bmp) to be in the same directory.
+
+Fraken was here. <EOF FROM CLIENT>  <BROKEN PIPE>
