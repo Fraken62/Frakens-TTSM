@@ -26,4 +26,8 @@ NOTE:
 
 If you want to move the binary somewhere, it expects its background art file (background.bmp) to be in the same directory.
 
-Fraken was here. <EOF FROM CLIENT>  <BROKEN PIPE>
+KNOWN BUGS:
+
+The 1.0A codebase has a bug in the network scaling code when using the scale reduction over time feature.  Every so often, it will extend the bar past the bottom of the graph.  It doesn't crash, but it does look crappy.  Inserting "if (height<0) {height=0;}" just before the XSetForeground in the drawNETWORK function fixes it.  This will be fixed in later versions.
+
+Fraken was here: EOF FROM CLIENT/BROKEN PIPE JOKE.
