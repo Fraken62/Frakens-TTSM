@@ -1,5 +1,7 @@
 # Fraken's TTSM V1.0A  
 
+Intro: Small.  It's just small.  39x39 pixels, but just big enough you can easily and instantly see CPU, Disk, Network and Swap stats.  Sits on top, small enough to fit nine copies on a floppy disk from 1979 (for real) and fast enough that even updating 30x a second, it uses 0.02% CPU on my particular workstation.  I run it all day, every day!  --Fraken
+
 DESCRIPTION: AN ICON SIZED, REAL TIME FREEBSD XORG SYSTEM MONITOR
 
 TTSM: "Teeny Tiny System Monitor"
